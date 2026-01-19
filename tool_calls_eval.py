@@ -572,6 +572,7 @@ class ToolCallsValidator:
         result = {
             "data_index": data_index,
             "request": prepared_req["prepared"],
+            "extra_body": self.extra_body,
             "response": response,
             "status": status,
             "finish_reason": finish_reason,
